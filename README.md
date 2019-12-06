@@ -1,4 +1,24 @@
-Welcome to Graphs!
-This is a Python project that contains a Graph class that allows several functionallity on undirected, non weighted, simple graphs, such as adding edges, vertices, plotting (leveraging the networkx module) and retrieve the Adjency and Laplacian Graph matrices.
-I created the project to study spectral graph theory,as it is of great convinience having methods within a graph class that gives you Matrix Graph representations. 
-However, it is an open project so perhaps it could also be extended to other functionallity like algorithms (deep firs/bread first), or machine/deep learning approaches.
+
+## Welcome to Graphs!
+
+This is a Python project that contains a Graph class that allows several functionallity on undirected, non weighted graphs, such as adding edges, vertices and retrieve the Adjency and Laplacian Graph matrices.
+
+## EXAMPLE USAGE:
+
+**create graph from adjacency list:**
+IN: G=Graph.Graph({0:[1],1:[0,2,3],2:[1],3:[1]})
+create graph from edge list:
+
+**G2 = Graph.Graph()**
+[G2.addEdge(edge) for edge in [(0,1),(1,0),(1,3),(1,2),(3,1),(2,1)]]
+
+## Methods:
+
+* getVertices()
+* getEdges()
+* getAdjList()
+* addVertex()
+* addEdge()
+* draw() [DEPRECATED-DEPENDENCE IN NETWORX PACKAGE]
+* getAdjencyMatrix()
+* getLaplacianMatrix()
