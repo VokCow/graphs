@@ -6,7 +6,7 @@ This is a Python project that contains a Graph class that allows several functio
 ## EXAMPLE USAGE:
 
 **create graph from adjacency list:**
-IN: G=Graph.Graph({0:[1],1:[0,2,3],2:[1],3:[1]})
+G=Graph.Graph({0:[1],1:[0,2,3],2:[1],3:[1]})
 create graph from edge list:
 
 **G2 = Graph.Graph()**
