@@ -1,7 +1,7 @@
 
 ## Welcome to Graphs!
 
-This is a Python project that contains a Graph class that allows several functionallity on undirected, non weighted graphs, such as adding edges, vertices and retrieve the Adjency and Laplacian Graph matrices.
+This is a Python project that contains a Graph class that allows several functionallity on undirected graphs, such as adding edges, vertices and retrieve the Adjency and Laplacian Graph matrices.
 
 ## EXAMPLE USAGE:
 
